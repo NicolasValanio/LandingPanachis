@@ -1,0 +1,255 @@
+h1,h2,p,text,a {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight:bold;
+}
+
+*{
+    margin: 0; 
+    padding:0; 
+    box-sizing: border-box;}
+
+    header{
+    width: 100%;
+    height: 15vh;
+    background-color: #f83805;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.titulo{
+    padding-top: 5vh;
+    background-image: url(./img//logo\ panchis.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    margin-left: 2rem;
+}
+.title2{
+    padding-bottom: 3rem;
+}
+
+nav{
+    width: 50%;
+    /* height: fit-content; */
+    background-color: #f83805;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+li{
+    list-style: none;
+    padding: .5rem;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.img{
+    width: 100%;
+    height: 85vh;
+    background-image: url("https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/481998915_1197675082360421_3217062390045456536_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=atzLPds8cb4Q7kNvwEp9YJ-&_nc_oc=AdlmvUdnnWY-HfwPWR6zZjzrx_qU42rWDh33eHfgx7ZkuvQLZxgepgt1jTwxKy0iclg&_nc_zt=23&_nc_ht=scontent.feoh2-1.fna&_nc_gid=hDZ8FEza5kN0-SmVvdl0BQ&oh=00_AfRb_mw50Cfuea-uklvsNZlHGBKcTPoiojjIuO_Hnhi5Pw&oe=6891C1A8");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.img h1,p{
+    margin-bottom: 1rem;
+    position: relative;
+}
+.img h1{
+    font-size: 3rem ;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.img p{
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.img a{
+    background-color: #f83805;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    position: relative;
+}
+.img::before{
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 85vh;
+     background-color: rgba(0, 0, 0, 0.773); /* película negra transparente */
+    z-index: 0;
+    margin-top: 15vh;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+}
+main{
+    background-color: #FAF3E0;
+}
+.qn{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background-color: #FAF3E0;
+}
+
+.dos p{
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+footer {
+    width: 100%;
+    height: 45vh;
+    background-color: #A6281F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 -4px 16px rgba(0,0,0,0.1);
+}
+
+footer h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+
+.tarjetas{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FAF3E0;
+}
+
+.tarjeta{
+    width: 23%;
+    height: fit-content;
+    border: solid 1px;
+    border-radius: 8px;
+    margin: 1rem auto;
+    background-color: #E0CA3C;
+    text-align: center;
+
+}
+.imagen_tarjeta1,
+.imagen_tarjeta2,
+.imagen_tarjeta3,
+.imagen_tarjeta4 {
+    width: 150px;
+    height: 150px;
+    background-size:cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 1rem auto;
+}
+.imagen_tarjeta1 {
+    background-image: url("https://revistaalpaladarblog.wordpress.com/wp-content/uploads/2017/10/mute-santandereano-507680.jpg");
+}
+.imagen_tarjeta2 {
+    background-image: url("https://www.vanguardia.com/resizer/mnRbRAPWwDzDtjQIdyonBb7gY5Y=/arc-photo-vanguardiaeluniversal/arc2-prod/public/F665AHNUF5BYRJISQDBRATUIHU.jpg");
+}
+.imagen_tarjeta3 {
+    background-image: url("https://newmansown.com/wp-content/uploads/2022/03/Homemade-lasagna-1200x675.png");
+}
+.imagen_tarjeta4 {
+    background-image: url("https://i.pinimg.com/564x/89/76/3e/89763e60b556f4a61fd3a48269cbb0db.jpg");
+}
+.tarjeta h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.tarjeta p {
+    font-size: 1rem;
+    width: 80%;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+.tarjeta button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.dos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 8px;
+    }
+.lado1 {
+    grid-column: span 3 / span 3;
+    grid-row: span 6 / span 6;
+}
+
+.img1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    background-image: url(./img/WhatsApp\ Image\ 2025-08-02\ at\ 6.16.50\ PM.jpeg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.857);
+}
+
+.img2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    background-image: url(./img/WhatsApp\ Image\ 2025-08-02\ at\ 6.19.09\ PM\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.857);
+}
+
+.img3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 5;
+        background-image: url(./img/WhatsApp\ Image\ 2025-08-02\ at\ 6.19.09\ PM.jpeg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.857);
+}
+        
