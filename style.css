@@ -63,7 +63,7 @@ a:hover{
 .img{
     width: 100%;
     height: 85vh;
-    background-image: url("https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/481998915_1197675082360421_3217062390045456536_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=atzLPds8cb4Q7kNvwEp9YJ-&_nc_oc=AdlmvUdnnWY-HfwPWR6zZjzrx_qU42rWDh33eHfgx7ZkuvQLZxgepgt1jTwxKy0iclg&_nc_zt=23&_nc_ht=scontent.feoh2-1.fna&_nc_gid=hDZ8FEza5kN0-SmVvdl0BQ&oh=00_AfRb_mw50Cfuea-uklvsNZlHGBKcTPoiojjIuO_Hnhi5Pw&oe=6891C1A8");
+    background-image: url("https://asset.cloudinary.com/dwrupo75d/39493b154eadc4c30a907702185a9146");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,9 +162,9 @@ footer p {
 }
 .menuu{
     background:url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1776&q=80);
-  background-size:cover;
-  background-position:right;
-  background-attachment:fixed;
+    background-size:cover;
+    background-position:right;
+    background-attachment:fixed;
 }
 .tarjeta{
     width: 23%;
